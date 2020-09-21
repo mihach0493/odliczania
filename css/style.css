@@ -1,0 +1,71 @@
+.container {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    font-size: 40px;
+}
+
+.cyfra {
+    opacity: 0;
+    animation-name: count;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#num10 {
+    animation-delay: 0;
+}
+
+#num9 {
+    animation-delay: 2s;
+}
+
+#num8 {
+    animation-delay: 4s;
+}
+
+#num7 {
+    animation-delay: 6s;
+}
+
+#num6 {
+    animation-delay: 8s;
+}
+
+#num5 {
+    animation-delay: 10s;
+}
+
+#num4 {
+    animation-delay: 12s;
+}
+
+#num3 {
+    animation-delay: 14s;
+}
+
+#num2 {
+    animation-delay: 16s;
+}
+#num1 {
+    animation-delay: 18s;
+}
+#love {
+    animation-delay: 20s;
+}
+
+
+@keyframes count {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
